@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello World"
+    android:textColor="@color/black"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:fontFamily="@font/poppins_bold_italic"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textSize="20sp"
+    android:textAllCaps="false"
+    android:layout_marginHorizontal="24dp"
+    android:background="@drawable/shape"
+    android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/umt"
+        android:layout_gravity="center" />
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="24dp">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="pria"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="wanita"/>
+
+</RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="24dp">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SD"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMP"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMA"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:spinnerMode="dialog"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="24dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_date_range_24"
+            android:drawablePadding="5dp"
+            android:text="Silahkan Isi"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/baseline_access_time_filled_24"
+            android:drawablePadding="5dp"
+            android:text="Silahkan Isi"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
